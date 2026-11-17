@@ -1,0 +1,14 @@
+{
+  "name": "product_helper",
+  "private": true,
+  "type": "module",
+  "description": "Manage A/B tests that live in PostHog feature flags, from a phone or a laptop.",
+  "scripts": {
+    "start": "node dev/serve.mjs",
+    "test": "node --test test/",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
